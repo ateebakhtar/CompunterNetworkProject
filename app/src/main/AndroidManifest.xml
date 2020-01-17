@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.cnproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Cloudy"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".itemlist" />
+        <activity android:name=".Cart" />
+        <activity android:name=".confirmitem" />
+        <activity android:name=".login" />
+        <activity android:name=".createaccount" />
+        <activity android:name=".viewaccount" />
+        <activity android:name=".editaccount" />
+        <activity android:name=".payment" />
+        <activity android:name=".thankyou" />
+        <activity android:name=".messenger" />
+        <activity android:name=".edititems" />
+        <activity android:name=".itemdet"></activity>
+    </application>
+
+</manifest>
